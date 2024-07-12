@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FKBurger.API", "FKBurger.API\FKBurger.API.csproj", "{0CFAA13A-6F12-4E06-A07E-EEC42017DE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FKBurger.WebUI", "FKBurger.WebUI\FKBurger.WebUI.csproj", "{D2FD3449-24CB-4F49-83B3-9267A57C8FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FKBurger.Entity", "FKBurger.Entity\FKBurger.Entity.csproj", "{A40AE28C-62D6-48EB-A817-1A6755951549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FKBurger.Business", "FKBurger.Business\FKBurger.Business.csproj", "{93AF6D3C-5708-4D26-891A-A2CD77F6531D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FKBurger.DataAccess", "FKBurger.DataAccess\FKBurger.DataAccess.csproj", "{6E768E8F-0B38-4DDF-BCF6-27F4D7F0A8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FKBurger.DTO", "FKBurger.DTO\FKBurger.DTO.csproj", "{169366E2-1BA9-4B3D-B686-4612D8E5764C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CFAA13A-6F12-4E06-A07E-EEC42017DE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFAA13A-6F12-4E06-A07E-EEC42017DE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFAA13A-6F12-4E06-A07E-EEC42017DE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFAA13A-6F12-4E06-A07E-EEC42017DE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FD3449-24CB-4F49-83B3-9267A57C8FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FD3449-24CB-4F49-83B3-9267A57C8FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FD3449-24CB-4F49-83B3-9267A57C8FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FD3449-24CB-4F49-83B3-9267A57C8FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40AE28C-62D6-48EB-A817-1A6755951549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40AE28C-62D6-48EB-A817-1A6755951549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40AE28C-62D6-48EB-A817-1A6755951549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40AE28C-62D6-48EB-A817-1A6755951549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93AF6D3C-5708-4D26-891A-A2CD77F6531D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AF6D3C-5708-4D26-891A-A2CD77F6531D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AF6D3C-5708-4D26-891A-A2CD77F6531D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AF6D3C-5708-4D26-891A-A2CD77F6531D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E768E8F-0B38-4DDF-BCF6-27F4D7F0A8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E768E8F-0B38-4DDF-BCF6-27F4D7F0A8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E768E8F-0B38-4DDF-BCF6-27F4D7F0A8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E768E8F-0B38-4DDF-BCF6-27F4D7F0A8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169366E2-1BA9-4B3D-B686-4612D8E5764C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169366E2-1BA9-4B3D-B686-4612D8E5764C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169366E2-1BA9-4B3D-B686-4612D8E5764C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169366E2-1BA9-4B3D-B686-4612D8E5764C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F77D36CD-C8C3-4E2B-A1E5-02A6EFA095B2}
+	EndGlobalSection
+EndGlobal
